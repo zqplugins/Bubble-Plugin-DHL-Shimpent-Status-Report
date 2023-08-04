@@ -1,0 +1,16 @@
+{
+    "categories": {
+        "0": "customer support",
+        "1": "location",
+        "2": "productivity",
+        "3": "ecommerce",
+        "4": "small business"
+    },
+    "demo_page": "https://ezcodedemo2.bubbleapps.io/version-test/ezdhl",
+    "description": "The Shipment Tracking API provides up-to-the-minute shipment status reports.\n\nFeatures:\n- retrieve tracking information for shipments. \n- identify the Deutsche Post DHL (DPDHL) service provider involved with the shipment.\n- verify DPDHL is using the correct delivery address. This can reduce the number of misdelivered shipments.\n\nThe DHL Location Finder API provides data on DHL Service Points which a user needs for sending and receiving packages.\n\nFeatures:\n- retrieve DHL Service Points near a specific location based on either address information or geographical coordinates\n- determine which services are offered at a DHL Service Point\n- get information about opening hours and holiday closing times of each DHL Service Point\n\n🔔 The most risk-free way to try out this plugin is to subscribe to it. If you unsubscribe a few days later you will be charged on pro-rata basis, so for example if the plugin monthly price is $5 then you’d pay only 17¢ per day ($5/30 days)!\n\n🔔 Get our 10 Top Plugins Bundle with 10 most popular plugins for only 20$/month.\nPlugins included in the Bundle:\n\n- Bubble Page to PDF converter\n- #1 Stripe Marketplace Express\n- Air Calendar (Full Calendar 5.9.0)\n- #1 AWS File uploader - Any size\n- Advanced Rich Text Editor\n- Mapbox Map\n- Phone input Number with formatting\n- Advanced Multi Uploader\n- Video player\n- Dynamic Height & Width of Elements\n\nGet it here: https://zeroqode.com/bundle\n\nDEMO & DOCUMENTATION\n\nNEED HELP BUILDING A CUSTOM APPLICATION?\nhttps://dev.zeroqode.com\n\nSUPERCHARGE YOUR APP WITH ZEROQODE PLUGINS\nhttps://zeroqode.com/plugins\n\nQUESTIONS OR NEED HELP?\nhttps://forum.zeroqode.com\n",
+    "image": "//s3.amazonaws.com/appforest_uf/f1661953337747x981219589811480600/kisspng-dhl-express-courier-business-delivery-mail-dhl-5b44130c25ef43.9514852315311879801554.png",
+    "license": "open_source",
+    "link": "https://zeroqode.com/plugins",
+    "name": "DHL Shimpent Status Report",
+    "plugin_instructions": "Tracking Id:\n\n- Enter Id, and get response with all information about\n\nLocation Finder:\n\n- Enter adress, and get response about nearest DHL point, with addres, services, geo points \n"
+}

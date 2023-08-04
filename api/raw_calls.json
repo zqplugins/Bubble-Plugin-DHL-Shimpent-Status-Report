@@ -1,0 +1,63 @@
+{
+    "calls": {
+        "AAH": {
+            "initialized": true,
+            "method": "get",
+            "name": "Get Tracking",
+            "params": {
+                "AAI": {
+                    "key": "",
+                    "private": true,
+                    "value": ""
+                }
+            },
+            "publish_as": "action",
+            "rank": 0,
+            "ret_value": "api.1659445047843x203541375771475970.plugin_api.AAH",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAH\":{\"caption\":\"Get Tracking\",\"fields\":{\"_p_shipments\":{\"ret_value\":\"list.api.1659445047843x203541375771475970.plugin_api.AAH.shipments\",\"caption\":\"shipments\",\"path\":[\"shipments\"]},\"_p_url\":{\"ret_value\":\"text\",\"caption\":\"url\",\"sample_value\":\"/track/shipments?trackingNumber=123456790&limit=3\",\"path\":[\"url\"]},\"_p_firstUrl\":{\"ret_value\":\"text\",\"caption\":\"firstUrl\",\"sample_value\":\"/track/shipments?trackingNumber=123456790&limit=3\",\"path\":[\"firstUrl\"]},\"_p_prevUrl\":{\"ret_value\":\"text\",\"caption\":\"prevUrl\",\"sample_value\":\"/track/shipments?trackingNumber=123456790&limit=3\",\"path\":[\"prevUrl\"]},\"_p_nextUrl\":{\"ret_value\":\"text\",\"caption\":\"nextUrl\",\"sample_value\":\"/track/shipments?trackingNumber=123456790&limit=3\",\"path\":[\"nextUrl\"]},\"_p_lastUrl\":{\"ret_value\":\"text\",\"caption\":\"lastUrl\",\"sample_value\":\"/track/shipments?trackingNumber=123456790&limit=3\",\"path\":[\"lastUrl\"]},\"_p_possibleAdditionalShipmentsUrl\":{\"ret_value\":\"list.text\",\"caption\":\"possibleAdditionalShipmentsUrl\",\"sample_value\":\"/track/shipments?trackingNumber=123456790&service=freight\",\"path\":[\"possibleAdditionalShipmentsUrl\"]}}},\"plugin_api.AAH.shipments\":{\"caption\":\"Get Tracking shipment\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"MSPA18581\",\"path\":[\"id\"]},\"_p_service\":{\"ret_value\":\"text\",\"caption\":\"service\",\"sample_value\":\"dgf\",\"path\":[\"service\"]},\"_p_origin.address.countryCode\":{\"ret_value\":\"text\",\"caption\":\"origin address countryCode\",\"sample_value\":\"US\",\"path\":[\"origin\",\"address\",\"countryCode\"]},\"_p_origin.address.addressLocality\":{\"ret_value\":\"text\",\"caption\":\"origin address addressLocality\",\"sample_value\":\"O'Hare Apt/Chicago\",\"path\":[\"origin\",\"address\",\"addressLocality\"]},\"_p_destination.address.countryCode\":{\"ret_value\":\"text\",\"caption\":\"destination address countryCode\",\"sample_value\":\"CA\",\"path\":[\"destination\",\"address\",\"countryCode\"]},\"_p_destination.address.addressLocality\":{\"ret_value\":\"text\",\"caption\":\"destination address addressLocality\",\"sample_value\":\"Vancouver\",\"path\":[\"destination\",\"address\",\"addressLocality\"]},\"_p_status.timestamp\":{\"ret_value\":\"text\",\"caption\":\"status timestamp\",\"sample_value\":\"2022-05-09T14:40:00\",\"path\":[\"status\",\"timestamp\"]},\"_p_status.statusCode\":{\"ret_value\":\"text\",\"caption\":\"status statusCode\",\"sample_value\":\"failure\",\"path\":[\"status\",\"statusCode\"]},\"_p_status.description\":{\"ret_value\":\"text\",\"caption\":\"status description\",\"sample_value\":\"Shipment Cancelled (if applicable)\",\"path\":[\"status\",\"description\"]},\"_p_details.carrier.@type\":{\"ret_value\":\"text\",\"caption\":\"details carrier @type\",\"sample_value\":\"Organization\",\"path\":[\"details\",\"carrier\",\"@type\"]},\"_p_details.carrier.organizationName\":{\"ret_value\":\"text\",\"caption\":\"details carrier organizationName\",\"sample_value\":\"OCEAN\",\"path\":[\"details\",\"carrier\",\"organizationName\"]},\"_p_details.proofOfDeliverySignedAvailable\":{\"ret_value\":\"boolean\",\"caption\":\"details proofOfDeliverySignedAvailable\",\"sample_value\":false,\"path\":[\"details\",\"proofOfDeliverySignedAvailable\"]},\"_p_details.totalNumberOfPieces\":{\"ret_value\":\"number\",\"caption\":\"details totalNumberOfPieces\",\"sample_value\":2,\"path\":[\"details\",\"totalNumberOfPieces\"]},\"_p_details.weight.value\":{\"ret_value\":\"number\",\"caption\":\"details weight value\",\"sample_value\":301,\"path\":[\"details\",\"weight\",\"value\"]},\"_p_details.weight.unitText\":{\"ret_value\":\"text\",\"caption\":\"details weight unitText\",\"sample_value\":\"KGM\",\"path\":[\"details\",\"weight\",\"unitText\"]},\"_p_details.volume.value\":{\"ret_value\":\"number\",\"caption\":\"details volume value\",\"sample_value\":0,\"path\":[\"details\",\"volume\",\"value\"]},\"_p_details.volume.unitText\":{\"ret_value\":\"text\",\"caption\":\"details volume unitText\",\"sample_value\":\"MTQ\",\"path\":[\"details\",\"volume\",\"unitText\"]},\"_p_details.references\":{\"ret_value\":\"list.api.1659445047843x203541375771475970.plugin_api.AAH.details.references\",\"caption\":\"details references\",\"path\":[\"details\",\"references\"]},\"_p_details.dgf:routes\":{\"ret_value\":\"list.api.1659445047843x203541375771475970.plugin_api.AAH.details.dgf:routes\",\"caption\":\"details dgf:routes\",\"path\":[\"details\",\"dgf:routes\"]},\"_p_events\":{\"ret_value\":\"list.api.1659445047843x203541375771475970.plugin_api.AAH.events\",\"caption\":\"events\",\"path\":[\"events\"]}}},\"plugin_api.AAH.details.references\":{\"caption\":\"Get Tracking details reference\",\"fields\":{\"_p_number\":{\"ret_value\":\"text\",\"caption\":\"number\",\"sample_value\":\"123456790\",\"path\":[\"number\"]},\"_p_type\":{\"ret_value\":\"text\",\"caption\":\"type\",\"sample_value\":\"customer-reference\",\"path\":[\"type\"]}}},\"plugin_api.AAH.details.dgf:routes\":{\"caption\":\"Get Tracking details dgf:route\",\"fields\":{\"_p_dgf:placeOfAcceptance.dgf:locationName\":{\"ret_value\":\"text\",\"caption\":\"dgf:placeOfAcceptance dgf:locationName\",\"sample_value\":\"O'Hare Apt/Chicago\",\"path\":[\"dgf:placeOfAcceptance\",\"dgf:locationName\"]},\"_p_dgf:placeOfDelivery.dgf:locationName\":{\"ret_value\":\"text\",\"caption\":\"dgf:placeOfDelivery dgf:locationName\",\"sample_value\":\"Vancouver\",\"path\":[\"dgf:placeOfDelivery\",\"dgf:locationName\"]}}},\"plugin_api.AAH.events\":{\"caption\":\"Get Tracking event\",\"fields\":{\"_p_timestamp\":{\"ret_value\":\"text\",\"caption\":\"timestamp\",\"sample_value\":\"2022-05-09T14:40:00\",\"path\":[\"timestamp\"]},\"_p_statusCode\":{\"ret_value\":\"text\",\"caption\":\"statusCode\",\"sample_value\":\"failure\",\"path\":[\"statusCode\"]},\"_p_description\":{\"ret_value\":\"text\",\"caption\":\"description\",\"sample_value\":\"Shipment Cancelled (if applicable)\",\"path\":[\"description\"]}}}}",
+            "url": "https://api-eu.dhl.com/track/shipments?trackingNumber=[tracking_number]",
+            "url_params": {
+                "AAL": {
+                    "doc": "Enter Tracking ID",
+                    "key": "tracking_number",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AAO": {
+            "initialized": true,
+            "method": "get",
+            "name": "Get Location",
+            "publish_as": "action",
+            "rank": 1,
+            "ret_value": "api.1659445047843x203541375771475970.plugin_api.AAO",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAO\":{\"caption\":\"Get Location\",\"fields\":{\"_p_locations\":{\"ret_value\":\"list.api.1659445047843x203541375771475970.plugin_api.AAO.locations\",\"caption\":\"locations\",\"path\":[\"locations\"]}}},\"plugin_api.AAO.locations\":{\"caption\":\"Get Location location\",\"fields\":{\"_p_url\":{\"ret_value\":\"text\",\"caption\":\"url\",\"sample_value\":\"/locations/LON1AA\",\"path\":[\"url\"]},\"_p_location.ids\":{\"ret_value\":\"list.api.1659445047843x203541375771475970.plugin_api.AAO.location.ids\",\"caption\":\"location ids\",\"path\":[\"location\",\"ids\"]},\"_p_location.keyword\":{\"ret_value\":\"text\",\"caption\":\"location keyword\",\"sample_value\":\"\",\"path\":[\"location\",\"keyword\"]},\"_p_location.keywordId\":{\"ret_value\":\"text\",\"caption\":\"location keywordId\",\"sample_value\":\"\",\"path\":[\"location\",\"keywordId\"]},\"_p_location.type\":{\"ret_value\":\"text\",\"caption\":\"location type\",\"sample_value\":\"servicepoint\",\"path\":[\"location\",\"type\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"Robert Dyas St. Martin's Lane\",\"path\":[\"name\"]},\"_p_distance\":{\"ret_value\":\"number\",\"caption\":\"distance\",\"sample_value\":366,\"path\":[\"distance\"]},\"_p_place.address.countryCode\":{\"ret_value\":\"text\",\"caption\":\"place address countryCode\",\"sample_value\":\"GB\",\"path\":[\"place\",\"address\",\"countryCode\"]},\"_p_place.address.postalCode\":{\"ret_value\":\"text\",\"caption\":\"place address postalCode\",\"sample_value\":\"WC2N 4AS\",\"path\":[\"place\",\"address\",\"postalCode\"]},\"_p_place.address.addressLocality\":{\"ret_value\":\"text\",\"caption\":\"place address addressLocality\",\"sample_value\":\"LONDON\",\"path\":[\"place\",\"address\",\"addressLocality\"]},\"_p_place.address.streetAddress\":{\"ret_value\":\"text\",\"caption\":\"place address streetAddress\",\"sample_value\":\"97 St. Martins Lane\",\"path\":[\"place\",\"address\",\"streetAddress\"]},\"_p_place.geo.latitude\":{\"ret_value\":\"number\",\"caption\":\"place geo latitude\",\"sample_value\":51.5105,\"path\":[\"place\",\"geo\",\"latitude\"]},\"_p_place.geo.longitude\":{\"ret_value\":\"number\",\"caption\":\"place geo longitude\",\"sample_value\":-0.127308,\"path\":[\"place\",\"geo\",\"longitude\"]},\"_p_openingHours\":{\"ret_value\":\"list.api.1659445047843x203541375771475970.plugin_api.AAO.openingHours\",\"caption\":\"openingHours\",\"path\":[\"openingHours\"]},\"_p_serviceTypes\":{\"ret_value\":\"list.text\",\"caption\":\"serviceTypes\",\"sample_value\":\"express:drop-off-easy\",\"path\":[\"serviceTypes\"]}}},\"plugin_api.AAO.location.ids\":{\"caption\":\"Get Location location id\",\"fields\":{\"_p_locationId\":{\"ret_value\":\"text\",\"caption\":\"locationId\",\"sample_value\":\"LON1AA\",\"path\":[\"locationId\"]},\"_p_provider\":{\"ret_value\":\"text\",\"caption\":\"provider\",\"sample_value\":\"express\",\"path\":[\"provider\"]}}},\"plugin_api.AAO.openingHours\":{\"caption\":\"Get Location openingHour\",\"fields\":{\"_p_opens\":{\"ret_value\":\"text\",\"caption\":\"opens\",\"sample_value\":\"10:00:00\",\"path\":[\"opens\"]},\"_p_closes\":{\"ret_value\":\"text\",\"caption\":\"closes\",\"sample_value\":\"18:30:00\",\"path\":[\"closes\"]},\"_p_dayOfWeek\":{\"ret_value\":\"text\",\"caption\":\"dayOfWeek\",\"sample_value\":\"http://schema.org/Monday\",\"path\":[\"dayOfWeek\"]}}}}",
+            "url": "https://api.dhl.com/location-finder/v1/find-by-address?countryCode=[countryCode]&addressLocality=[addressLocality]",
+            "url_params": {
+                "AAP": {
+                    "doc": "Enter Coutry Code 2 Letters(GB, LT, UA etc)",
+                    "key": "countryCode",
+                    "private": true,
+                    "value": "GB"
+                },
+                "AAQ": {
+                    "doc": "Enter Your address",
+                    "key": "addressLocality",
+                    "private": true,
+                    "value": "London"
+                }
+            }
+        }
+    },
+    "human": "EzDHL",
+    "shared_headers": {
+        "AAR": {
+            "key": "DHL-API-Key",
+            "private": true,
+            "visibility": "secret"
+        }
+    }
+}
